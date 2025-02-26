@@ -1,7 +1,7 @@
 {
     "name": "concept-labs/simple-cache",
     "description": "(C)oncept-Labs PSR-16 Simple Cache",
-    "keywords": ["php","event dispatcher","psr","psr-16"],
+    "keywords": ["php","simple cache","psr","psr-16"],
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=8.0",
+        "php": ">=8.2",
         "psr/simple-cache": "^3.0"
     },
     "autoload": {
@@ -19,12 +19,9 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.0",
-        "fig/cache-util": "^2.0"
     },
     "autoload-dev": {
         "psr-4": {
-            "Cl\\SimpleCache\\Test\\": "test/"
         }
     }
 
